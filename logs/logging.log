@@ -1,1 +1,108 @@
 [2025-05-02 16:03:54,679: INFO: main: This is a test]
+[2025-05-03 17:43:43,897: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-03 17:43:43,908: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-03 17:43:43,911: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-03 17:43:43,913: INFO: common: artifacts directory created]
+[2025-05-03 17:43:43,915: INFO: common: artifacts/data_ingestion directory created]
+[2025-05-03 17:43:44,863: INFO: 4092280413: artifacts/data_ingestion/data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 55FA:1FCB95:674C34:8A4B21:68168E10
+Accept-Ranges: bytes
+Date: Sat, 03 May 2025 21:43:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-yyz4538-YYZ
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1746308625.649790,VS0,VE115
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 62ec53ed9898f9c059bc6258bbba4ca8f81a83d7
+Expires: Sat, 03 May 2025 21:48:44 GMT
+Source-Age: 0
+
+]
+[2025-05-03 17:46:57,235: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-03 17:46:57,237: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-03 17:46:57,239: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-03 17:46:57,241: INFO: common: artifacts directory created]
+[2025-05-03 17:48:26,790: INFO: common: artifacts/data_ingestion directory created]
+[2025-05-03 17:51:04,405: INFO: 4092280413: artifacts/data_ingestion/data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 55FA:1FCB95:674C34:8A4B21:68168E10
+Accept-Ranges: bytes
+Date: Sat, 03 May 2025 21:51:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-yyz4543-YYZ
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1746309064.200960,VS0,VE110
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8662284b24dcd50566d9145346096138dd51bd35
+Expires: Sat, 03 May 2025 21:56:04 GMT
+Source-Age: 0
+
+]
+[2025-05-03 17:51:14,841: INFO: 4092280413: File already exists]
+[2025-05-03 17:58:46,788: INFO: 1028793331: File already exists]
+[2025-05-03 17:59:25,541: INFO: 1099657641: File already exists]
+[2025-05-03 17:59:35,257: INFO: 1099657641: Dataset is already unzipped!]
+[2025-05-03 17:59:46,657: INFO: 1099657641: Dataset is unzipped!]
+[2025-05-03 17:59:50,595: INFO: 1099657641: Dataset is already unzipped!]
+[2025-05-03 18:31:49,188: INFO: main: >>>>>>> stage: Data Ingestion Stage started <<<<<<<<]
+[2025-05-03 18:31:49,189: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-05-03 18:31:49,190: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-05-03 18:31:49,190: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-05-03 18:31:49,191: INFO: common: artifacts directory created]
+[2025-05-03 18:31:49,191: INFO: common: artifacts/data_ingestion directory created]
+[2025-05-03 18:31:50,190: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 55FA:1FCB95:674C34:8A4B21:68168E10
+Accept-Ranges: bytes
+Date: Sat, 03 May 2025 22:31:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-yyz4545-YYZ
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1746311510.010221,VS0,VE72
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 53bee41ba7ab572abd17d5ade99dba9cd39228f3
+Expires: Sat, 03 May 2025 22:36:50 GMT
+Source-Age: 0
+
+]
+[2025-05-03 18:31:50,192: INFO: data_ingestion: Dataset is unzipped!]
+[2025-05-03 18:31:50,192: INFO: main: >>>>>> stage Data Ingestion Stage completed <<<<<< 
+
+x========x]

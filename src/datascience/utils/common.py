@@ -111,6 +111,17 @@ def save_bin(data: Any, path: Path):
 
 @ensure_annotations
 def load_bin(path: Path) -> Any:
+    """
+    The function `load_bin` loads a binary file using joblib and logs the path from which the file was
+    loaded.
+    
+    :param path: The `path` parameter in the `load_bin` function is expected to be a `Path` object,
+    which represents a file path. This function loads a binary file using joblib and returns the loaded
+    data
+    :type path: Path
+    :return: The function `load_bin` is returning the data loaded from the binary file located at the
+    specified `path`.
+    """
     data = joblib.load(path)
     logger.info(f"binary file loaded from: {path}")
     return data
