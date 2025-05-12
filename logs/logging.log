@@ -222,3 +222,76 @@ x========x]
 [2025-05-12 14:17:49,057: INFO: main: >>>>>> stage Model Evaluation Stage completed <<<<<< 
 
 x========x]
+[2025-05-12 15:11:58,183: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.21.217.17:8080]
+[2025-05-12 15:11:58,184: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-12 15:12:02,307: INFO: _internal: 127.0.0.1 - - [12/May/2025 15:12:02] "GET / HTTP/1.1" 200 -]
+[2025-05-12 15:12:02,398: INFO: _internal: 127.0.0.1 - - [12/May/2025 15:12:02] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-12 15:12:02,554: INFO: _internal: 127.0.0.1 - - [12/May/2025 15:12:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-05-12 15:13:49,375: INFO: _internal: 127.0.0.1 - - [12/May/2025 15:13:49] "POST /predict HTTP/1.1" 200 -]
+[2025-05-12 15:14:49,667: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.21.217.17:8080]
+[2025-05-12 15:14:49,667: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-12 15:14:52,066: INFO: _internal: 172.21.208.1 - - [12/May/2025 15:14:52] "GET / HTTP/1.1" 200 -]
+[2025-05-12 15:14:52,171: INFO: _internal: 172.21.208.1 - - [12/May/2025 15:14:52] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-12 15:14:52,199: INFO: _internal: 172.21.208.1 - - [12/May/2025 15:14:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-05-12 15:15:05,205: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 1249, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a TypeError.
+[2025-05-12 15:15:05,207: INFO: _internal: 172.21.208.1 - - [12/May/2025 15:15:05] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-12 15:17:56,495: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 1249, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a TypeError.
+[2025-05-12 15:17:56,496: INFO: _internal: 172.21.208.1 - - [12/May/2025 15:17:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-12 15:17:58,100: INFO: _internal: 172.21.208.1 - - [12/May/2025 15:17:58] "GET /predict HTTP/1.1" 200 -]
+[2025-05-12 15:17:58,119: INFO: _internal: 172.21.208.1 - - [12/May/2025 15:17:58] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-12 15:18:12,947: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 939, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sermengi/test-github-actions/venv/lib/python3.12/site-packages/flask/app.py", line 1249, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a TypeError.
+[2025-05-12 15:18:12,948: INFO: _internal: 172.21.208.1 - - [12/May/2025 15:18:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-05-12 15:18:58,532: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.21.217.17:8080]
+[2025-05-12 15:18:58,532: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-05-12 15:19:00,264: INFO: _internal: 127.0.0.1 - - [12/May/2025 15:19:00] "GET / HTTP/1.1" 200 -]
+[2025-05-12 15:19:00,358: INFO: _internal: 127.0.0.1 - - [12/May/2025 15:19:00] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-05-12 15:19:00,384: INFO: _internal: 127.0.0.1 - - [12/May/2025 15:19:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-05-12 15:19:15,560: INFO: _internal: 127.0.0.1 - - [12/May/2025 15:19:15] "POST /predict HTTP/1.1" 200 -]
